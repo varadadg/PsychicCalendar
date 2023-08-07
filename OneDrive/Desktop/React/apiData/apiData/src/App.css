@@ -1,0 +1,51 @@
+Certainly! Here's a React.js app challenge that involves manipulating an API response and displaying it in a different form. In this challenge, you'll be working with an API that returns a list of users. Your task is to fetch the user data from the API, manipulate the response, and display it in a different format.
+
+**Challenge: User List Transformation App**
+
+**API Endpoint:**
+
+For this challenge, let's assume the API endpoint that returns a list of users is `https://api.example.com/users`.
+
+**Requirements:**
+
+1. **Fetching Data**: Create a React app that fetches the list of users from the API endpoint mentioned above.
+
+2. **Display Original Data**: Display the original list of users as received from the API in a tabular format. Show at least the following user details for each user: Name, Email, and Phone.
+
+3. **Data Transformation**: Implement a transformation logic to modify the user data. The transformation should be as follows:
+   - Capitalize the first letter of each user's name.
+   - Hide the last two digits of each user's phone number with asterisks (e.g., 123-456-7890 should become 123-456-****).
+
+4. **Display Transformed Data**: Show the transformed user data in a new tabular format, similar to the original data, but with the modifications applied.
+
+5. **Error Handling**: Handle any errors that may occur during the API fetch process and display an appropriate error message to the user if the data cannot be retrieved.
+
+6. **Loading State**: Display a loading indicator while the data is being fetched from the API.
+
+7. **Styling**: Feel free to add CSS styling to make the app visually appealing.
+
+**Tips:**
+
+- Use `fetch` or any other suitable method to make the API request from your React app.
+
+- You can use the `map` function to loop through the list of users and apply the required transformations.
+
+- To capitalize the first letter of each name, you can create a helper function or use JavaScript's string manipulation functions.
+
+- To hide the last two digits of the phone number, you can use JavaScript's string methods like `slice()` or regular expressions.
+
+- Use React state to store the fetched data, loading state, and any error messages that need to be displayed.
+
+**Bonus:**
+
+If you complete the main challenge and want an extra challenge, you can consider the following enhancements:
+
+- Add pagination or infinite scrolling to display the users in a more manageable way, especially if the API returns a large number of users.
+
+- Implement sorting functionality to allow users to sort the user list based on name, email, or phone number.
+
+- Add search functionality to filter users based on their names or other criteria.
+
+- Provide options for the user to choose different transformations, such as changing the capitalization style or hiding different digits of the phone number.
+
+Have fun building the User List Transformation App! It will test your API handling skills and your ability to manipulate and present data in different forms using React.js.
